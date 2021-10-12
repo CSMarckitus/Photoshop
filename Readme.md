@@ -22,10 +22,8 @@ First of all check if your distro is compatible:
 - Fedora (Compatible with all versions that share the same WineHQ repository, currently from 29 to 34)
 - Only Debian 10 (Buster)
 - Ubuntu
-
-<br>
-
-- Arch Linux (not tested)
+- Arch Linux
+- Manjaro
 </details>
 If it is compatible open your terminal, run the following commands and follow the installer:
 
@@ -37,6 +35,13 @@ And then:
 >
 >cd photoshop; make; ./Photoshop2020
 >
+>NOTE: Arch and based distros, need the following commands:
+><br>
+> sudo pacman -S valgrind
+><br>
+> And then:
+><br>
+>cd photoshop; make; valgrind ./Photoshop2020
 
 <br>
 
