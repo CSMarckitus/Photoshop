@@ -20,10 +20,8 @@ First of all check if your distro is compatible:
 <summary>Compatible Distros:</summary>
 
 - Fedora (Compatible with all versions that share the same WineHQ repository, currently from 29 to 34)
-- Only Debian 10 (Buster)
-- Ubuntu
-- Arch Linux
-- Manjaro
+- Debian 10 (Buster) and any other Debian based distro
+- Arch Linux and any other Arch based distro
 </details>
 If it is compatible open your terminal, run the following commands and follow the installer:
 
@@ -35,13 +33,13 @@ And then:
 >
 >cd photoshop; make; ./Photoshop2020
 >
->NOTE: Arch and based distros, need the following commands:
+>NOTE: If you get an memory access error message, you need to install valgrind in your distro and execute the program with it.
 ><br>
-> sudo pacman -S valgrind
+> Example in an Arch or based distro:
 ><br>
-> And then:
+> Install the program: sudo pacman -S valgrind
 ><br>
->cd photoshop; make; valgrind ./Photoshop2020
+>Executing the program: cd photoshop; make; valgrind ./Photoshop2020
 
 <br>
 
