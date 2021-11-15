@@ -46,11 +46,11 @@ And then:
 ## **Changing Language pack to English (US)**
 >
   Note: The default language for this setup files is Spanish.
-> To change it in English(US), follow the given steps:
-> **Place the en_US directory to the following path: PhotoshopCC/Photoshop-CC/Locales/**
-> **Then, Run photoshop, go to edit in the navigation bar, then preferences>interface**
-> **Then change the UI language from espanyol to English**
-> **Restart Photoshop**
+  - To change it in English(US), follow the given steps:
+  - **Place the en_US directory to the following path: PhotoshopCC/Photoshop-CC/Locales/**
+  - **Then, Run photoshop, go to edit in the navigation bar, then preferences>interface**
+  - **Then change the UI language from espanyol to English**
+  - **Restart Photoshop**
 
 
 ## **Important things during the installation**
