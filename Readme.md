@@ -16,7 +16,8 @@ This program written in C will help you to automatically install everything you 
 
 ## :computer: Installation
 If you are new in Linux and don't know some commands, you can watch this video for more easy installation:
-[![Click in image for watch the video](https://i.ytimg.com/vi/yF7nvzaIITg/hqdefault.jpg)](https://www.youtube.com/embed/yF7nvzaIITg)
+[![Click in image for watch the video](https://i.ytimg.com/vi/yF7nvzaIITg/hqdefault.jpg)](https://www.youtube.com/watch?v=yF7nvzaIITg)
+
 First of all check if your distro is compatible:
 <details open>
 <summary>Compatible Distros:</summary>
