@@ -15,6 +15,8 @@ This program written in C will help you to automatically install everything you 
 - It's free and you will not need any license key
 
 ## :computer: Installation
+If you are new in Linux and don't know some commands, you can watch this video for more easy installation:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yF7nvzaIITg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 First of all check if your distro is compatible:
 <details open>
 <summary>Compatible Distros:</summary>
