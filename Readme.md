@@ -1,4 +1,4 @@
-# Photoshop CC v21.0.2 installer for Linux
+# Photoshop CC v21.0.2 installer for Linux (2020)
 This program written in C will help you to automatically install everything you need and configure it so that you can run Photoshop on your Linux without problems.
 
 ![screenshot](images/background.jpg)
