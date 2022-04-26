@@ -48,7 +48,8 @@ And then:
 
 <br>
 
-## **Changing Language pack to English (US)**
+<details>
+<summary>## **Changing Language pack to English (US)**</summary>
 >
   Note: The default language for this setup files is Spanish.
   > To change it in English(US), follow the given steps:
@@ -56,9 +57,10 @@ And then:
   - **Then, Run photoshop, go to edit in the navigation bar, then preferences>interface**
   - **Then change the UI language from espanyol to English**
   - **Restart Photoshop**
+</details>
 
-
-## **Important things during the installation**
+<details>
+<summary>## **Important things during the installation**</summary>
 >
 > **During the installer you will see for a moment that Windows 7 is selected by default, change it to Windows 10.**
 >If you have a 4k monitor or open Photoshop and it looks small, in the same place go to the Graphics tab and increase the resolution between 216 and 240 ppp.
@@ -77,7 +79,7 @@ And then:
 >- The requirements are based on the technical specifications provided by the Adobe page according to the Windows operating system, **so it is possible that although > some requirements are not met in Linux, Photoshop can be executed.**
 >- Is possible that when checks requirements, in computers that don't have dedicated VRAM (As they use a chunk of memory RAM) in some cases the result, is that you can run Photoshop, but this is not really.
 >
-
+</details>
 ---
 
 <details>
