@@ -49,24 +49,30 @@ And then:
 <br>
 
 <details>
-<summary>## **Changing Language pack to English (US)**</summary>
+<summary>Changing Language pack to English (US)</summary>
 >
   Note: The default language for this setup files is Spanish.
+  <br>
   > To change it in English(US), follow the given steps:
+  <br>
   - **Place the en_US directory to the following path: PhotoshopCC/Photoshop-CC/Locales/**
+  <br>
   - **Then, Run photoshop, go to edit in the navigation bar, then preferences>interface**
+  <br>
   - **Then change the UI language from espanyol to English**
+  <br>
   - **Restart Photoshop**
 </details>
 
 <details>
-<summary>## **Important things during the installation**</summary>
+<summary>Important things during the installation</summary>
 >
-> **During the installer you will see for a moment that Windows 7 is selected by default, change it to Windows 10.**
+> During the installer you will see for a moment that Windows 7 is selected by default, change it to Windows 10.
 >If you have a 4k monitor or open Photoshop and it looks small, in the same place go to the Graphics tab and increase the resolution between 216 and 240 ppp.
+  <br>
 >Once all this is done apply the changes.
 ><br>
->**Photoshop may sometimes start with a black screen, just Create a new file or just drag in some photo.**
+>Photoshop may sometimes start with a black screen, just Create a new file or just drag in some photo.**
 ><br>
 >**Before starting any project try to Save the file first. In case it doesn't let you do the following:**
 
