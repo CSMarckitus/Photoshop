@@ -105,6 +105,8 @@ Before starting any project try to Save the file first. In case it doesn't let y
     - I have installed Wine but my system does not recognize it, why? If you use any shell different than the default provided by system, you need to add the PATH of the path of installation of WINE.
     
     - If your distro is not compatible you have to modify the program so that the installation can continue and you have to install WineHQ yourself.
+  
+    - It was observed in Ubuntu 22.04, that `cabextract` package was not installed by default. Install this package if it is missing in your Distro. For example, in Ubuntu 22.04, run `sudo apt install cabextract`.
 
 <br>
 
