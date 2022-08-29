@@ -27,6 +27,7 @@ First of all check if your distro is compatible:
 - Fedora (Compatible with all versions that share the same WineHQ repository, currently from 29 to 34)
 - Debian 10 (Buster) and any other Debian based distro
 - Arch Linux and any other Arch based distro
+- Gentoo Linux
 </details>
 If it is compatible open your terminal, run the following commands and follow the installer:
 
