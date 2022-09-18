@@ -1,8 +1,0 @@
-Ctrl+F4
-Shift+Ctrl+F4
-Alt+F4
-Alt+Shift+F4
-Ctrl+F6
-Shift+Ctrl+F6
-Ctrl+Tab
-Shift+Ctrl+Tab
