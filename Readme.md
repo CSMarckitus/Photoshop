@@ -1,4 +1,4 @@
-# Photoshop CC v21.0.2 installer for Linux
+# Photoshop CC v21.2.4 installer for Linux
 This program written in C will help you to automatically install everything you need and configure it so that you can run Photoshop on your Linux without problems.
 
 ![screenshot](images/background.jpg)
@@ -50,21 +50,6 @@ And then:
 <br>
 
 <details>
-<summary>Changing Language pack to English (US)</summary>
-  Note: The default language for this setup files is Spanish.
-  <br>
-  To change it in English(US), follow the given steps:
-  <br>
-  - Place the en_US directory to the following path: PhotoshopCC/Photoshop-CC/Locales/
-  <br>
-  - Then, Run photoshop, go to edit in the navigation bar, then preferences>interface
-  <br>
-  - Then change the UI language from espanyol to English
-  <br>
-  - Restart Photoshop
-</details>
-
-<details>
 <summary>Important things during the installation</summary>
 
 **During the installer you will see for a moment that Windows 7 is selected by default, change it to Windows 10.**
@@ -105,7 +90,7 @@ Before starting any project try to Save the file first. In case it doesn't let y
 
     - I have installed Wine but my system does not recognize it, why? If you use any shell different than the default provided by system, you need to add the PATH of the path of installation of WINE.
     
-    - If your distro is not compatible you have to modify the program so that the installation can continue and you have to install WineHQ yourself.
+    - If your distro is not compatible you have to modify the program for skip the WineHQ installation, therefore you will have to install WineHQ in the correct way according to your distro and with this, you can use the installation on whatever distro.
 
 <br>
 
