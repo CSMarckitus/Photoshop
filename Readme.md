@@ -44,7 +44,7 @@ make
 ./Photoshop2020
 ```
 
-## NOTE: 
+## Note: 
 If you get an memory access error message, you need to install valgrind in your distro and execute the program with it.
 Example in an Arch or based distro:
 Install the program: 
@@ -79,21 +79,23 @@ Before starting any project try to Save the file first. In case it doesn't let y
 The requirements are based on the technical specifications provided by the Adobe page according to the Windows operating system, so it is possible that although some requirements are not met in Linux, Photoshop can be executed.
 Is possible that when checks requirements, in computers that don't have dedicated VRAM (As they use a chunk of memory RAM) in some cases the result, is that you can run Photoshop, but this is not really.
 
-## Possible errors, bugs or for the people that want add or try new features:
 
-### Errors or bugs:
+## Errors or bugs:
 If make not works, copy and paste this in terminal in the current folder:
-> gcc -ggdb3 -O0 -std=c99 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow -pedantic -w -o Photoshop2020 Photoshop.c ./scripts/Requirements.c ./scripts/Installer.c ./scripts/Cameraraw.c ./scripts/Configure.c ./scripts/Uninstaller.c ./Photoshop2020
+
+```bash
+gcc -ggdb3 -O0 -std=c99 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow -pedantic -w -o Photoshop2020 Photoshop.c ./scripts/Requirements.c ./scripts/Installer.c ./scripts/Cameraraw.c ./scripts/Configure.c ./scripts/Uninstaller.c ./Photoshop2020
+```
 - If the program has an error in somewhere of installer, first uninstall Photoshop.
 
 - I have installed Wine but my system does not recognize it, why? If you use any shell different than the default provided by system, you need to add the PATH of the path of installation of WINE.
 
 - If your distro is not compatible you have to modify the program for skip the WineHQ installation, therefore you will have to install WineHQ in the correct way according to your distro and with this, you can use the installation on whatever distro.
 
-### New features:
+## New features:
 If you want to try the staging version of Wine, Adobe Camera Raw has not worked for me.
 
-### Notes:
+## Notes:
 - I use getchar in some lines for clear stdin and doing that a command can be read by scanf.
 - The main file is Photoshop.c
 
